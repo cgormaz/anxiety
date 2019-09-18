@@ -96,15 +96,15 @@ bb({eyes:"look"});
 
 [¡Oh no, mira esta horrible noticia!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[Oh no, ¿acaso ese tweet es sobre *nosotros?*](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[Hey, un GIF de un gato bebiendo leche](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: Heh, qué tierno, yo--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: LOS GATOS NO PUEDEN DIGERIDAD LECHE Y SOMOS PERSONAS HORRIBLES POR DISFRUTAR EL ABUSO ANIMAL
 
 (...200)
 
