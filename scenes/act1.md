@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: Y ESTA ES LA ANSIEDAD HUMANA
 
-n: _YOU_ ARE THE ANXIETY
+n: _TU_ ERES LA ANSIEDAD
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)

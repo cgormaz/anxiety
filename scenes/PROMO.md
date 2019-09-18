@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Antes de que empecemos, ¿cómo te gustaría leer?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: Bien, comencemos nuestra historia...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: ESTE ES UN HUMANO
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: Y ESTA ES LA ANSIEDAD DE ESE HUMANO
 
-n: _YOU_ ARE THE ANXIETY
+n: _TÚ_ ERES LA ANSIEDAD
 
 (#act1_normal)
 
@@ -66,35 +66,35 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: Nop. No, nop, no te escucho. Voy a revisar mi teléfono.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TU TRABAJO ES PROTEGER A TU HUMANO DEL *PELIGRO*
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: ¡Oh no! ¡Estás desperdiciando tu vida en Twitter! ¡De nuevo!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: Sí, me pregunto por qué no me siento a escuchar mis pensamientos más seguido.
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: ¡RÁPIDO, ADVIÉRTELES SOBRE EL *PELIGRO!*
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[¡Oh no, mira esta horrible noticia!](#act1d_news)
 
 [Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
 
