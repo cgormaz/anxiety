@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: Y ESTA ES LA ANSIEDAD HUMANA
+n: Y ÉSTA ES LA ANSIEDAD DEL HUMANO
 
-n: _TU_ ERES LA ANSIEDAD
+n: _TÚ_ ERES LA ANSIEDAD
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _TU_ ERES LA ANSIEDAD
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: ¡Oh, hey! ¿Estamos aquí de nuevo?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: TU TRABAJO ES PROTEGER A TU HUMANO DEL *PELIGRO*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: DE HECHO, JUGAR ESTE JUEGO LOS ESTÁ PONIENDO EN *PELIGRO* AHORA MISMO
 
-n: QUICK, WARN THEM!
+n: ¡RÁPIDO, ADVIÉRTELES!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: ¡Humano! Escucha, estamos en peligro. ¡El jugador...!
 
-[...is gonna torture us again!](#act1_replay_torture)
+[¡...nos va a torturar de nuevo!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[¡...no encontrará un final alternativo!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[¡...experimentará disonancia ludo-narrativa!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,15 +59,15 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: ¡Nos harán encogernos y llorar!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: ¡Nos forzarán a matar a tu teléfono por darte un ataque de pánico!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: ¡Harán que *no* le peguemos al anfitrión!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
@@ -75,11 +75,11 @@ b: They'll make us punch the Sympathetic Anti-Villain party host!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: Bueno, al menos no brincaremos del techo esta ve--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: NOS FORZARÁN A BRINCAR DEL TECHO.
 {{/if}}
 
 `bb({body:"fear"});`
